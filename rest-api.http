@@ -1,0 +1,19 @@
+GET http://localhost:3000/api/v1/characters?name=Rick
+Accept: application/json
+###
+
+GET http://localhost:3000/api/v1/characters?episode=1
+Accept: application/json
+###
+
+GET http://localhost:3000/api/v1/characters?episodes[]=1
+Accept: application/json
+###
+
+GET http://localhost:3000/api/v1/characters?season=1
+Accept: application/json
+###
+
+GET http://localhost:3000/api/v1/characters?seasons[]=1&seasons[]=2
+Accept: application/json
+###
