@@ -7,9 +7,12 @@ Dependency|Version
 Ruby|3.1.2
 Rails|6.1.6
 
-Authentication with devise
-https://github.com/heartcombo/devise
+set database username and password to .env files
 
 rails db:prepare 
 
+run rake rake migration:characters
+
 rails server
+
+use rest-api.http as an example for requests
